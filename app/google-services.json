@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "385111371672",
+    "firebase_url": "https://chearby-8a08e-default-rtdb.firebaseio.com",
+    "project_id": "chearby-8a08e",
+    "storage_bucket": "chearby-8a08e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385111371672:android:19a93e36539f4e07d385ed",
+        "android_client_info": {
+          "package_name": "com.akashmeruva.chearby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385111371672-2h2fhqple0e1a8su40hi3rgco32ckq4j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akashmeruva.chearby",
+            "certificate_hash": "9381a6b61871c0df4c6afa2e71c04d3861b3a63e"
+          }
+        },
+        {
+          "client_id": "385111371672-2uqeb2iqcocv5s61hf0qa7404d4vsnc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC145vscGioFP84LV3o7SDuoWO_5r3rH18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385111371672-2uqeb2iqcocv5s61hf0qa7404d4vsnc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

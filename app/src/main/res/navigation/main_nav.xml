@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/splash"
+    android:id="@+id/main_nav">
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.akashmeruva.chearby.Splash"
+        android:label="Splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splash_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_splash_to_register"
+            app:destination="@id/register" />
+        <action
+            android:id="@+id/action_splash_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.akashmeruva.chearby.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_otp_auth"
+            app:destination="@id/otp_auth" />
+    </fragment>
+    <fragment
+        android:id="@+id/otp_auth"
+        android:name="com.akashmeruva.chearby.Otp_auth"
+        android:label="fragment_otp_auth"
+        tools:layout="@layout/fragment_otp_auth" >
+        <action
+            android:id="@+id/action_otp_auth_to_register"
+            app:destination="@id/register" />
+        <action
+            android:id="@+id/action_otp_auth_to_home2"
+            app:destination="@id/home2" />
+        <action
+            android:id="@+id/action_otp_auth_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/register"
+        android:name="com.akashmeruva.chearby.Register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_register_to_home2"
+            app:destination="@id/home2" />
+        <action
+            android:id="@+id/action_register_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <activity
+        android:id="@+id/home2"
+        android:name="com.akashmeruva.chearby.Home"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+
+</navigation>
